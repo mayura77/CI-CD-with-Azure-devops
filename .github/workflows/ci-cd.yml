@@ -35,7 +35,7 @@ jobs:
 
     steps:
       - name: Run Test
-        run: echo "All tests passed successfully"
+        run: cat missing-file.txt
 
   deploy:
     name: Deploy Stage
